@@ -17,22 +17,6 @@ La respuesta corta: no. Y los datos muestran exactamente por qué.
 
 ---
 
-## Estructura del Proyecto
-
-```
-bitcoin-otc-fraud/
-├── bitcoin_otc_analisis.R     # Script principal completo
-├── README.md                  # Este archivo
-└── outputs/
-    ├── viz1_fragilidad_red.png
-    ├── viz2_kpis_discriminantes.png
-    ├── viz3_distribucion_señales.png
-    ├── viz4_pares_mutuos.png
-    ├── viz5_vecinos_peligrosos.png
-    └── viz6_polarizacion.png
-```
-
----
 
 ## Metodología
 
@@ -154,7 +138,7 @@ Se calcularon 9 KPIs para cada usuario y se compararon entre el grupo Fraudulent
 | Variabilidad del voto | 2.966 | 0.807 | **+268%** | Fraude mayor |
 | Días entre votos | 2.223 | 18.079 | **-88%** | Normal mayor |
 | Promedio emitido | 0.751 | 1.384 | **-46%** | Normal mayor |
-| Índice de aislamiento | 0.685 | 0.662 | **+3.5%** | No discrimina |
+
 
 ### KPI 1: Velocidad de Construcción de Reputación (+2.879%)
 
